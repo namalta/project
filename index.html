@@ -1,2 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<h1> Hello World   </h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="shop.css">
+
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- This is icons links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+  <div class="all content">
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo"><img src="images/arrow/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style=" color: white; font-size: 23px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end-->
+
+
+
+
+
+
+
+
+    <!-- /* home section start */ -->
+
+    <section id="home">
+      <div class="content">
+
+        <h3>Less depresso more <br>espresso</h3>
+        <p>No one can understand the truth until he drinks of coffee’s frothy goodness.
+          <br>“Coffee! Because anger management is too expensive.” 
+        </p>
+        <button id="btn">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- /* home section end  */ -->
+
+
+
+
+    <!-- about section start -->
+    <section id="about">
+      <div class="container">
+        <div class="heading">About<span>Us</span></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="images/WhatsApp Image 2024-10-16 at 12.29.00 AM.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+             <h3>What makes our Coffee Special?</h3>
+
+       <p>Coffee is a brewed drink made from roasted coffee beans, which are the seeds of berries from the coffee plant. The Coffee plant is native to tropical Africa and Asia and was first cultivated in Ethiopia. <br>The seeds of the Coffea plant's fruits are separated to produce unroasted green coffee beans. The beans are roasted and then ground into fine particles typically steeped in hot water before being filtered out, producing a cup of coffee. <br><br> It is usually served hot, although chilled or iced coffee is common. Baristas learn to make all styles of coffee with skill, precision, and speed. <br>Some even invent their own. A good barista is a coffee house’s most valuable asset.</p>
+
+            <button id="about-btn">Learn More</button>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- about section end -->
+
+
+    <!-- top card start  -->
+    <section id="top-cards">
+      <div class="heading2">Top <span>Categories</span></div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/WhatsApp Image 2024-10-15 at 10.48.00 PM - Copy.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/gallery/category2.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/WhatsApp Image 2024-10-15 at 10.48.02 PM - Copy.jpeg" alt="">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+    <!-- top card end  -->
+
+
+
+    <!-- MAIN MENU start code from top card(categories) -->
+    <!-- menu start  -->
+    <section id="menu">
+      <div class="container">
+        <div class="heading3">Menu</div>
+      </div>
+
+      <div class="container" id="container2">
+
+
+        <div class="row">
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/menu/coffee1.jpeg" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <h3>Coffee</h3>
+                <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/menu/coffee2.jpeg" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <h3>Coffee</h3>
+                <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/menu/coffee3.jpeg" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <h3>Coffee</h3>
+                <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="images/menu/coffee4.jpeg " alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <h3>Coffee</h3>
+                <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/menu/coffee5.jpeg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <h3>Coffee</h3>
+                  <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/menu/coffee6.jpeg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <h3>Coffee</h3>
+                  <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/menu/coffee7.jpeg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <h3>Coffee</h3>
+                  <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="images/menu/coffee8.jpeg" alt="">
+
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <h3>Coffee</h3>
+                  <p>$99 <strike>$100</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- product section start -->
+    <section id="product">
+      <div class="container">
+        <div class="heading4">Products</div>
+      </div>
+
+      <div class="container" id="container3">
+        <div class="row">
+          <div class="col-md-3 py-3 py-3">
+
+            <div class="card">
+              <img src="images/product/WhatsApp Image 2024-10-16 at 9.30.01 AM.jpeg" alt="">
+
+              <div class="card-body">
+                <h3>Nescafe Coffee</h3>
+
+                <p>$120 <strike>$150</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 py-3 py-3">
+
+            <div class="card">
+              <img src="images/product/WhatsApp Image 2024-10-16 at 9.30.02 AM (1).jpeg" alt="">
+
+              <div class="card-body">
+                <h3>Cappucino Coffee</h3>
+
+                <p>$150 <strike>$200</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-3">
+
+            <div class="card">
+              <img src="images/product/WhatsApp Image 2024-10-16 at 2.21.20 PM.jpeg" alt="">
+
+              <div class="card-body">
+                <h3>Klassno Coffee</h3>
+
+                <p>$130 <strike>$250</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-3">
+
+            <div class="card">
+              <img src="images/product/WhatsApp Image 2024-10-16 at 9.30.02 AM.jpeg" alt="">
+
+              <div class="card-body">
+                <h3>Classic Coffee</h3>
+
+                <p>$120 <strike>$150</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- product section end -->
+
+
+
+
+
+    <!-- /* our gallery start  */ -->
+
+    <div class="container" id="gallery">
+      <div class="heading5"> Our <span>Gallery</span></div>
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/image1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/image5.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/image3.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/cup10.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/cup8.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/cup6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/image9.jpg" alt="">
+          </div>
+        </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/gallery/cup8.jpg" alt="">
+        </div>
+      </div> 
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/gallery/cup8.jpg" alt="">
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
+
+  <!-- our gallary
+<div class="container" id="gallary">
+  <h1>Our <span>Gallary</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image1.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image2.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image3.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image4.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image5.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image6.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/cup24.jpeg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/cup8.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="images/gallery/image5.png" alt="">
+      </div>
+    </div>
+  </div>
+</div> -->
+  <!-- our gallary -->
+
+  <!-- /* our gallery end  */ -->
+
+
+
+
+
+  <!-- contact start  -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-7">
+          <div class="heading6">Contact <span>Us</span></div>
+
+          <p>No one can understand the truth until he drinks of coffee’s frothy goodness.<br>Happiness is a warm cup of
+            coffee.
+          </p>
+
+          <input type="text" class="form-control" placeholder="Name" aria-label="default input example"><br>
+          <input type="email" class="form-control" placeholder="Email" aria-label="default input example"><br>
+          <input type="number" class="form-control" placeholder="Phone" aria-label="default input example"><br>
+          <button id="contact-btn">Send Message</button>
+        </div>
+
+
+
+        <div class="col-md-5" id="col">
+          <h1 style="color: white;">Info</h1>
+          <p><i class="fa-regular fa-envelope"></i>coffeeshop@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+9231238563445</p>
+          <p><i class="fa-solid fa-building-columns"></i>Hyderabad Sindh Pakistan</p>
+
+          <p>No one can understand the truth until he drinks of coffee’s frothy goodness. Happiness is a warm cup of
+            coffee.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- contact end  -->
+
+
+
+
+
+
+  <!-- blogs start  -->
+  <section id="blogs">
+    <div class="heading7">Latest <span>Blogs</span></div>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="images/gallery/b1.png" alt="">
+            <div class="card-body">
+
+              <center>
+                <h3>Morning, Coffee Blog</h3>
+                <h5>Aisha Noor/ 16 October 2024</h5>
+              </center>
+              <p>Barista Hustle provides coffee classes to baristas, coffee specialists, and coffee lovers. It is one
+                of the leading coffee and barista learning platforms online. But they also have a coffee blog that is
+                full of unique content focusing on the world of coffee.</p>
+
+              <button id="blogbtn">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-1 py-md-0">
+          <div class="card">
+            <img src="images/gallery/b2.png" alt="">
+            <div class="card-body">
+              <center>
+                <h3>Evening, Coffee Blog</h3>
+                <h5>Aisha Noor/ 16 October 2024</h5>
+              </center>
+              <p>The Perfect Daily Grind delivers the most informative coffee content globally with articles published
+                in three different languages.This launched in January 2015, they have been a rich source of coffee
+                facts for coffee farmers, roasters, and coffee lovers. </p>
+
+              <button id="blogbtn">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-1 py-md-0">
+          <div class="card">
+            <img src="images/gallery/b3.png" alt="">
+            <div class="card-body">
+
+              <center>
+                <h3>Working, Coffee Blog</h3>
+                <h5>Aisha Noor 16-October-2024</h5>
+              </center>
+              <p>Have a hard time navigating your way into coffee? Coffee Compass will help you with everything you
+                need to know about specialty coffee. Coffee is managed by two amazing coffee enthusiasts,
+                Michael Butterworth, Fresh Cup magazine.</p>
+
+
+              <button id="blogbtn">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- blogs end  -->
+
+
+
+
+
+
+  <!-- footer start  -->
+  <footer id="footer">
+    <div class="footer-logo text-center"><img src="images/arrow/WhatsApp Image 2024-10-17 at 6.11.24 PM.jpeg" alt="">
+    </div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+
+    <div class="credits text-center">
+      Designed By <a href="#"> <span>Aishey Noor</span></a>
+    </div>
+
+    <div class="copyright text-center">
+      &copy; Copyright <strong> <span>Coffee Shop</span></strong>. All rights reserved
+    </div>
+  </footer>
+
+  <!-- footer end  -->
+
+  <a href="#" class="arrow"><i><img src="images/arrow/up-arrow.png" alt="" width="50px"></i></a>
+
+  </div>
+  </div>
+
+
+
+  </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
